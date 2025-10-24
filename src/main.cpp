@@ -1,7 +1,15 @@
-#include <iostream>
+#include "common.hpp"
 
 
-int main(void)
+
+
+int main(int argc, char** argv)
 {
-    std::cout<<"hello world";
+
+    Folder fold(std::filesystem::path("test"));
+    std::cout<< bytesToHexString(fold.get_hash());
+    
+
+    
+    return 0;
 }
