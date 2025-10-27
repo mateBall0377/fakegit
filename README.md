@@ -5,9 +5,8 @@
 - **Собирал**: CMake
 - **Зависимости**: OpenSSL, nlohmann/json
 
-### Догрузить сабмодуль надо⚠️
+### Догрузить сабмодуль⚠️
 ```bash
-# Загрузка сабмодулей 
 git submodule update --init --recursive
 ```
 
